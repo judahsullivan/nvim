@@ -34,6 +34,7 @@ use({
   end
 }
   use 'norcalli/nvim-colorizer.lua'
+  -- Color Schemes 
   use({
 	  'rose-pine/neovim',
 	  as = 'rose-pine',
@@ -41,6 +42,12 @@ use({
 		  vim.cmd('colorscheme rose-pine')
 	  end
   })
+  use({
+  "folke/tokyonight.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
+})
 
   use({
       "folke/trouble.nvim",
@@ -53,17 +60,21 @@ use({
           }
       end
   })
-
+  -- TreeSitter
   use {
 			'nvim-treesitter/nvim-treesitter',
 			run = function()
 				local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
 				ts_update()
 			end,}
+  use("nvim-treesitter/nvim-treesitter-context");
+ 
+
   -- use 'github/copilot.vim'
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim'
-  use("nvim-treesitter/nvim-treesitter-context");
+ 
+  -- Lua LSP / LSP Support 
   use 'nvim-lualine/lualine.nvim' -- Statusline
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
   use 'windwp/nvim-autopairs'
@@ -73,7 +84,6 @@ use({
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
 	  requires = {
-		  -- LSP Support
 		  {'neovim/nvim-lspconfig'},
 		  {'williamboman/mason.nvim'},
 		  {'williamboman/mason-lspconfig.nvim'},
