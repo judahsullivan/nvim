@@ -27,6 +27,6 @@ It comes with
 ## ScreenShots
 
 
-![ Main Screen with DashBoard ](/assets/neodashboard.png)
+![ Main Screen with DashBoard ](/assets/neovimdashboard.png)
 ![Neovim ](/assets/neovim.png)
 ![Neovim In Action](/assets/neoviminaction.png)
