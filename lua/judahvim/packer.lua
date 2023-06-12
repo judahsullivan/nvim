@@ -17,6 +17,7 @@ use({
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use 'ray-x/web-tools.nvim'
   use {
   'nvim-tree/nvim-tree.lua',
   requires = {
@@ -61,17 +62,17 @@ use({
 				ts_update()
 			end,}
   use("nvim-treesitter/nvim-treesitter-context");
- 
 
   -- use 'github/copilot.vim'
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim'
- 
+
   -- Lua LSP / LSP Support 
   use 'nvim-lualine/lualine.nvim' -- Statusline
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
+  use "pedro757/emmet"
   use 'akinsho/nvim-bufferline.lua'
   use {
 	  'VonHeikemen/lsp-zero.nvim',
