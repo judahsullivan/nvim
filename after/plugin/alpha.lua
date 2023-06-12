@@ -27,10 +27,7 @@ dashboard.section.buttons.val = {
  --  dashboard.button("q", " " .. " Quit", ":qa<CR>"),
 
   dashboard.button("f", ">find file", ":Telescope find_files <CR>"),
-  dashboard.button("p", ">find project", ":lua require('telescope').extensions.projects.projects()<CR>"),
   dashboard.button("r", ">recent files", ":Telescope oldfiles <CR>"),
-  dashboard.button("s", ">scratchpad", ":e ~/documents/scratchpad <CR>"),
-  dashboard.button("t", ">todolist", ":e ~/documents/todolist <CR>"),
   dashboard.button("c", ">config", ":e ~/.config/nvim/init.lua <CR>"),
   dashboard.button("q", ">quit", ":qa<CR>"),
 }
