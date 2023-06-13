@@ -6,21 +6,20 @@
 
 
 
-# PLEASE MAKE SURE TO READ THE DOCUMENTATION SO YOU KNOW WHAT YOU ARE USING! 
-# Also please backup your current config
-# Please ensure you have Tmux installed on your machine. 
+## PLEASE MAKE SURE TO READ THE DOCUMENTATION SO YOU KNOW WHAT YOU ARE USING! 
+## Also please backup your current config
+## Please ensure you have Tmux installed on your machine. 
 
 
 
 ## Heres How to Install and Use. Make sure you have the prereq: 
 
-1.Neovim V 0.8.0
-2.NodeJS
-3.Git
-4.Gcc, make, cmake, cc, clang, zig.(you can get these through Brew.)
-5.Tmux
-6.Packer.
-
+- Neovim V 0.8.0
+- NodeJS
+- Git
+- Gcc, make, cmake, cc, clang, zig.(you can get these through Brew.)
+- Tmux
+- Packer.
 
 ## Steps for Linux
 
@@ -30,7 +29,7 @@ mkdir .config
 
 ```
 
-##then you want to run this command 
+## then you want to run this command 
 
 ```
 git clone https://github.com/judahsullivan/nvim
@@ -46,7 +45,7 @@ than PackerSync.
 cd  Appdata/local/
 ```
 
-##then you want to run this command 
+## then you want to run this command 
 
 ```
 git clone https://github.com/judahsullivan/nvim
@@ -82,12 +81,12 @@ I was able to construct my own custom config!✨
 
 Well its a Custom config build with the Lua language. 
 It comes with 
--LSP
--Auto Complete
--Custom DashBoard 
--Simplistic and Intuitive key motions. 
--Tmux 
--Icons and Several Colorschemes you can choose from !
+- LSP
+- Auto Complete
+- Custom DashBoard 
+- Simplistic and Intuitive key motions. 
+- Tmux 
+- Icons and Several Colorschemes you can choose from !
 
 # Big Note "-" represents its a binding and "+" represents the combination
 
@@ -95,17 +94,19 @@ It comes with
 ## Some Basic Key Bindings  
 
 
-SpaceBar - e = "Open Side Panel and Close Side Panel"
+- SpaceBar - e = "Open Side Panel and Close Side Panel"
 
-SpaceBar - f = "Opens the Find File"
+- SpaceBar - f = "Opens the Find File"
 
-Control - *Neovim's motions = "Toggle Through the windows"
+- Control - *Neovim's motions = "Toggle Through the windows"
 
 ## When using Tmux
 
 
-Control - SpaceBar - Shift + %  = Horizontal Split
+- Control - SpaceBar - Shift + %  = Horizontal Split
 
-Control - SpaceBar - Shift + ""  = Vertical Split 
+- Control - SpaceBar - Shift + ""  = Vertical Split 
 
 
+
+## Thank you so much ! Please dont forget to give me a star and feedback good or bad! If you spot any problems please let me know so I can work on it immediately. This is truly a work in progress. That will I continually update and build-on.
