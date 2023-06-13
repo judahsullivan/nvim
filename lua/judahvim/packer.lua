@@ -41,13 +41,6 @@ use({
       end
   })
 use("tiagovla/scope.nvim")
-use {
-    's1n7ax/nvim-window-picker',
-    tag = 'v2.*',
-    config = function()
-        require'window-picker'.setup()
-    end,
-}
   use 'norcalli/nvim-colorizer.lua'
   -- Color Schemes 
   use({
@@ -79,7 +72,6 @@ use {
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
-  use "pedro757/emmet"
   use 'akinsho/nvim-bufferline.lua'
   use {
 	  'VonHeikemen/lsp-zero.nvim',
@@ -91,11 +83,14 @@ use {
 
 		  -- Autocompletion
 		  {'hrsh7th/nvim-cmp'},
-		  {'hrsh7th/cmp-buffer'},
+      {'mlaursen/vim-react-snippets'},
+      {'hrsh7th/cmp-buffer'},
 		  {'hrsh7th/cmp-path'},
 		  {'saadparwaiz1/cmp_luasnip'},
 		  {'hrsh7th/cmp-nvim-lsp'},
 		  {'hrsh7th/cmp-nvim-lua'},
+      {'pedro757/emmet'},
+
 
 		  -- Snippets
 		  {'L3MON4D3/LuaSnip'},
