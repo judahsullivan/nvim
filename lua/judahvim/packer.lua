@@ -22,28 +22,14 @@ use({
   'nvim-tree/nvim-tree.lua',
   requires = {
     'nvim-tree/nvim-web-devicons', -- optional
+
+
   },
   config = function()
     require("nvim-tree").setup {}
   end
 }
-  use 'norcalli/nvim-colorizer.lua'
-  -- Color Schemes 
-  use({
-	  'rose-pine/neovim',
-	  as = 'rose-pine',
-	  config = function()
-		  vim.cmd('colorscheme rose-pine')
-	  end
-  })
-  use({
-  "folke/tokyonight.nvim",
-  lazy = false,
-  priority = 1000,
-  opts = {},
-})
-
-  use({
+    use({
       "folke/trouble.nvim",
       config = function()
           require("trouble").setup {
@@ -54,7 +40,28 @@ use({
           }
       end
   })
-  -- TreeSitter
+use("tiagovla/scope.nvim")
+use {
+    's1n7ax/nvim-window-picker',
+    tag = 'v2.*',
+    config = function()
+        require'window-picker'.setup()
+    end,
+}
+  use 'norcalli/nvim-colorizer.lua'
+  -- Color Schemes 
+  use({
+	  'rose-pine/neovim',
+	  as = 'rose-pine'
+  })
+  use({
+  "folke/tokyonight.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
+})
+
+ -- TreeSitter
   use {
 			'nvim-treesitter/nvim-treesitter',
 			run = function()

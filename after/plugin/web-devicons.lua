@@ -24,6 +24,19 @@ local icons_by_filename = {
     cterm_color = "239",
     name = "DsStore",
   },
+  [".env.local"] = {
+    icon = "",
+    color = "#faf743",
+    cterm_color = "56",
+    name = "Env",
+  },
+ [".env.global"] = {
+    icon = "",
+    color = "#faf743",
+    cterm_color = "56",
+    name = "Env",
+  },
+
   [".eslintrc"] = {
     icon = "",
     color = "#4b32c3",
