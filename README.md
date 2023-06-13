@@ -6,9 +6,9 @@
 
 
 
-## PLEASE MAKE SURE TO READ THE DOCUMENTATION SO YOU KNOW WHAT YOU ARE USING! 
-## Also please backup your current config
-## Please ensure you have Tmux installed on your machine. 
+### PLEASE MAKE SURE TO READ THE DOCUMENTATION SO YOU KNOW WHAT YOU ARE USING! 
+### Also please backup your current config
+### Please ensure you have Tmux installed on your machine. 
 
 
 
@@ -21,37 +21,46 @@
 - Tmux
 - Packer.
 
-## Steps for Linux
+## Please Remember to Backup your Nvim configuration. 
 
-Create a directory called .config 
+### Steps for Linux
+
+
+#### Step 1 Create a directory called .config 
+
 ```
 mkdir .config 
 
 ```
-
-## then you want to run this command 
+##### Step 2 clone the repository.
 
 ```
 git clone https://github.com/judahsullivan/nvim
 ```
-```
-than PackerSync.
+#### Step 3 install the packages
 
 ```
+PackerSync
 
-## Steps for PowerShell 
+```
 
+### Steps for PowerShell 
+
+#### Step 1 enter the Appdata/local directory
 ```
 cd  Appdata/local/
+
 ```
 
-## then you want to run this command 
+#### Step 2 clone the repository 
 
 ```
 git clone https://github.com/judahsullivan/nvim
+
 ```
+#### Step 3 install the packages
 ```
-than PackerSync.
+PackerSync
 
 ```
 
